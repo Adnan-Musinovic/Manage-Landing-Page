@@ -1,0 +1,26 @@
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="email"] {
+    width: 75%;
+    padding: 1.6rem;
+    border-radius: 10rem;
+    border: none;
+    outline: 0;
+}
+
+button[type="submit"] {
+    background-color: $bright-red;
+    color: $vary-light-gray;
+    padding: 1.6rem 3.2rem;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 10rem;
+}

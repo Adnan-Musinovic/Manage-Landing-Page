@@ -43,6 +43,14 @@ h1, h2, h3, h4, h5, h6 {
 .hero p {
   margin-bottom: 3.5rem; }
 
+.number {
+  background-color: #f25f3a;
+  color: #fafafa;
+  padding: 1.6rem 3.2rem;
+  font-weight: 500;
+  border-radius: 10rem;
+  margin-right: 2.5rem; }
+
 .cta {
   background-color: #f25f3a;
   border-radius: 10rem;
@@ -58,6 +66,21 @@ h1, h2, h3, h4, h5, h6 {
   .cta:hover {
     transform: translateY(-0.5rem);
     box-shadow: 0px 5px 5px 2px rgba(242, 95, 58, 0.65); }
+
+.grid {
+  display: grid;
+  width: 100%; }
+
+.manage .grid {
+  grid-template-columns: 1fr;
+  gap: 5rem; }
+  .manage .grid__item__top {
+    display: flex;
+    align-items: center;
+    background-color: #ffefeb;
+    border-top-left-radius: 10rem;
+    border-bottom-left-radius: 10rem;
+    margin-bottom: 3.5rem; }
 
 .header {
   position: absolute;
@@ -107,3 +130,6 @@ h1, h2, h3, h4, h5, h6 {
       object-fit: cover; }
   .hero__content {
     text-align: center; }
+
+.manage {
+  padding: 7.5rem 0rem; }

@@ -26,3 +26,12 @@ h1,h2,h3,h4,h5,h6 {
         margin-bottom: 3.5rem;
     }
 }
+
+.number {
+    background-color: $bright-red;
+    color: $vary-light-gray;
+    padding: 1.6rem 3.2rem;
+    font-weight: 500;
+    border-radius: 10rem;
+    margin-right: 2.5rem;
+}

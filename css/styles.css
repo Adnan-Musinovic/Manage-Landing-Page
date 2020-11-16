@@ -51,6 +51,13 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 10rem;
   margin-right: 2.5rem; }
 
+.name {
+  color: #242d52;
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem; }
+
 .cta {
   background-color: #f25f3a;
   border-radius: 10rem;
@@ -133,3 +140,54 @@ h1, h2, h3, h4, h5, h6 {
 
 .manage {
   padding: 7.5rem 0rem; }
+
+.testimonial {
+  padding: 7.5rem 0rem; }
+  .testimonial .wrapper {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column; }
+  .testimonial .card__container {
+    margin: 10rem auto;
+    width: 90%; }
+    .testimonial .card__container .card {
+      background-color: #fafafa;
+      padding: 10rem 3.5rem;
+      text-align: center;
+      position: relative;
+      width: 100%;
+      cursor: grab;
+      margin-bottom: 5rem; }
+    .testimonial .card__container img {
+      height: 10rem;
+      width: 10rem;
+      position: absolute;
+      top: -5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 5; }
+  .testimonial .cta {
+    margin-top: 5rem; }
+
+.slick-dots li {
+  background-color: transparent;
+  border: 1px solid #f25f3a;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  padding: 0;
+  overflow: hidden; }
+
+.slick-dots li * button {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%; }
+
+.slick-dots li.slick-active button {
+  background-color: #f25f3a;
+  height: 100%;
+  width: 100%;
+  transform: scale(1.5);
+  border: 1px solid #f25f3a;
+  border-radius: 50%;
+  padding: 0; }

@@ -1,0 +1,37 @@
+.hero {
+    height: auto;
+    width: 100%;
+    padding: $padding-large;
+    position: relative;
+    overflow: hidden;
+
+    & .wrapper {
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        z-index: 1;
+    }
+
+    & svg {
+        position: absolute;
+        top: -35%;
+        right: -90%;
+        z-index: -1;
+    }
+
+    &__img {
+        height: 50%;
+        width: 100%;
+        margin-bottom: 3.5rem;
+        & img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+
+    &__content {
+        text-align: center;
+    }
+}

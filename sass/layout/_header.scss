@@ -1,0 +1,30 @@
+.header {
+    background-color: pink;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 2;
+    padding: $padding-small;
+    width: 100%;
+
+    & .wrapper {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    & .menu {
+        height: 1.9rem;
+        width: 3.5rem;
+        cursor: pointer;
+
+        &__line {
+            height: .3rem;
+            width: 100%;
+            background-color: $dark-blue;
+
+            &:not(:last-child) {
+                margin-bottom: .5rem;
+            }
+        }
+    }
+}

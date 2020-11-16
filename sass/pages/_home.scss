@@ -103,3 +103,29 @@
     border-radius: 50%;
     padding: 0;
 }
+
+.simplify {
+    background-color: $bright-red;
+    padding: $padding-large;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+    & svg {
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        transform: translateY(-50%);
+    }
+
+    & h1 {
+        color: $vary-light-gray;
+        font-size: 5.4rem;
+        margin-bottom: 5rem;
+    }
+
+    & .cta {
+        background-color: $vary-light-gray;
+        color: $bright-red;
+    }
+}

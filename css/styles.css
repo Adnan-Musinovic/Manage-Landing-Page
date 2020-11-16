@@ -191,3 +191,22 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid #f25f3a;
   border-radius: 50%;
   padding: 0; }
+
+.simplify {
+  background-color: #f25f3a;
+  padding: 7.5rem 0rem;
+  position: relative;
+  overflow: hidden;
+  text-align: center; }
+  .simplify svg {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%); }
+  .simplify h1 {
+    color: #fafafa;
+    font-size: 5.4rem;
+    margin-bottom: 5rem; }
+  .simplify .cta {
+    background-color: #fafafa;
+    color: #f25f3a; }
